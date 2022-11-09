@@ -1,0 +1,31 @@
+>>> python -m unittest -v .\mock_current_year_test.py
+
+test_DMY (mock_current_year_test.TestWhatIsYearNow) ... ok
+test_YMD (mock_current_year_test.TestWhatIsYearNow) ... ok
+test_invalid_format (mock_current_year_test.TestWhatIsYearNow) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+
+>>> python -m coverage run -m unittest mock_current_year_test.py
+
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK
+
+>>> python -m coverage report
+
+Name                        Stmts   Miss  Cover
+-----------------------------------------------
+mock_current_year_test.py      18      0   100%
+what_is_year_now.py            19      0   100%
+-----------------------------------------------
+TOTAL                          37      0   100%
+
+>>> python -m coverage html
+
+Wrote HTML report to htmlcov\index.html

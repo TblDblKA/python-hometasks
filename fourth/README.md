@@ -25,3 +25,20 @@ Launching:
     python -m pytest -v test_fit_transform_pytest.py
 
 Results: `./results/result4.txt`
+
+# Task 5
+Launching:
+
+    python -m unittest -v .\mock_current_year_test.py
+
+Results: `./results/result5.txt`
+
+Coverage test:
+
+    python -m coverage run -m unittest mock_current_year_test.py
+
+    python -m coverage report
+
+    python -m coverage html
+
+Coverage report will locate in `.\htmlcov\what_is_year_now_py.html`. In my repo coverage report allocates in file `coverage_report.html`
