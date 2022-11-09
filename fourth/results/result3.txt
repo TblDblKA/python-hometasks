@@ -1,0 +1,8 @@
+>>> python -m unittest -v test_fit_transform_unit.py
+
+test_empty (test_fit_transform_unit.TestFitTransform) ... ok
+test_fruits (test_fit_transform_unit.TestFitTransform) ... ok
+test_numbers (test_fit_transform_unit.TestFitTransform) ... ok
+test_str (test_fit_transform_unit.TestFitTransform) ... ok
+
+----------------------------------------------------------------------
